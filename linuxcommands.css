@@ -1,0 +1,20 @@
+body {
+            background-color: #9AB5BB;
+        }
+
+        #container {
+            width:900px;
+        }
+        
+        #header {
+            background-color:#9AB5BB
+        }
+
+        #content {
+            background-color:#9AB5BB;
+            block;
+            height:500px;
+            width:600px;
+            float:right;
+        }
+
