@@ -17,4 +17,13 @@ body {
             width:600px;
             float:right;
         }
+        
+        #table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #th {
+            text-align: left;
+        }
 
