@@ -31,7 +31,7 @@
 
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
       1. 0 + 1: <input type="text" name="arg1"><br>
-      2  0 + 2: <input type="text" name="arg2"><br>
+      2.  0 + 2: <input type="text" name="arg2"><br>
       3. 0 + 3: <input type="text" name="arg3"><br>
       <br>
       <input type="submit" value="Go!">
