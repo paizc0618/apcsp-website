@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Calculate the Area of a Circle</title>
+    <title>Math Quiz</title>
   </head>
 
 
   <body>
 
-    <h1>Calculate the Area of a Circle</h1>
-    <p>Identify the range of radii you'd like to calculate the area of.</p>
+    <h1>Math Quiz</h1>
+    <p>Input the answers to the quesions in the boxes below.</p>
 
     <?php
        // define variables and set to empty values
@@ -30,9 +30,9 @@
     ?>
 
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-      Arg1: <input type="text" name="arg1"><br>
-      Arg2: <input type="text" name="arg2"><br>
-      Arg3: <input type="text" name="arg3"><br>
+      1. 0 + 1: <input type="text" name="arg1"><br>
+      2  0 + 2: <input type="text" name="arg2"><br>
+      3. 0 + 3: <input type="text" name="arg3"><br>
       <br>
       <input type="submit" value="Go!">
     </form>
